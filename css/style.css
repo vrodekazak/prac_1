@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* *............. */
+.header {
+	width: 500px;
+	margin: 0px auto;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-shadow: 10px 2px 7px rgb(192, 60, 23);
+	color: rgba(138, 4, 2, 0.577);
+}
+
+.wrapper {
+	background-color: #F5F5F5;
+}
+
+.conteiner {
+	margin: 0px auto;
+	max-width: 1020px;
+
+
+}
+
+.who-we-are {
+	background-color: #fff;
+	min-height: 700px;
+	padding: 100px 87px 0px 87px;
+	margin: 0px 0px -300px 0px;
+}
+
+.head {
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+}
+
+.subtitle {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4B4B4B;
+	margin: 0px 0px 33px 0px;
+}
+
+.title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+
+}
+
+.text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px 54px 0px;
+}
+
+.image {
+	max-width: 846px;
+	margin: 0px auto;
+}
+
+
+.services {
+	max-width: 400px;
+	margin: 0px auto;
+}
+
+.block {
+	max-width: 324px;
+	max-height: 340px;
+	background: #FFFFFF;
+	padding: 50px 44px 50px 42px;
+}
+.block_mmb{
+	margin: 0px 0px 24px 0px;
+}
+
+.img {
+	text-align: center;
+	margin: 0px 0px 33px 0px;
+}
+
+.block-title {
+	font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 19px;
+line-height: 26px;
+text-align: center;
+color: #02133C;
+margin: 0px 0px 20px 0px;
+}
+
+.block-text {
+	font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.15px;
+color: #4B4B4B;
+}
+/* ---------- */
+
+.shop-page {
+	padding: 30px 0px 0px 30px;
+	background-color: #fff;
+	max-width: 1039px;
+	margin: 0px auto;
+}
+.shop-title {
+	font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #000000;
+margin: 0px 0px 26px 0px;
+}
+.shop-subtitle {
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+margin: 0px 0px 65px 0px;
+}
+
+.shop-info {
+	max-width: 650px;
+}
+.shop-info__name {
+	font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #000000;
+
+}
+.shop-info__text, 
+.shop-info__list {
+	font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+color: #000000;
+}
+.shop-info__name,
+.shop-info__text,
+.shop-info__list {
+margin: 0px 0px 25px 0px;
+}
+/* ************ */
+
+.quality {
+	background-color: #fff;
+	max-width: 522px;
+	max-height: 464px;
+	margin: 0px auto;
+	padding: 60px 40px 0px 46px;
+}
+
+.quality-img {
+	margin: 0px 0px 30px 0px;
+
+}
+.quality-title {
+	font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 44px;
+line-height: 58px;
+color: #000000;
+margin: 0px 0px 25px 0px;
+}
+.quality-text {
+	font-family: 'Poppins', sans-serif;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+}
